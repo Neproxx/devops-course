@@ -1,6 +1,8 @@
 name: Test
 
-on: issue_comment
+on: 
+  issues:
+    types: [opened, edited]
 
 jobs:
   # test is the job name
