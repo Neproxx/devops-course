@@ -1,6 +1,6 @@
 name: Test
 
-on: [issue]
+on: issue_comment
 
 jobs:
   # test is the job name
